@@ -103,12 +103,12 @@
         <InArgument x:TypeArguments="x:String">01/05/1997</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Assign Franek birthday" sap:VirtualizedContainerService.HintSize="510,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign sap:VirtualizedContainerService.HintSize="510,82" sap2010:WorkflowViewState.IdRef="Assign_8">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[BirthDate("Franek")]</OutArgument>
+        <OutArgument x:TypeArguments="x:String">[BirthDate("Jolanta")]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">["09/25/2003"]</InArgument>
+        <InArgument x:TypeArguments="x:String">03/03/1999</InArgument>
       </Assign.Value>
     </Assign>
     <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="510,1280" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[BirthDate.Keys]">
