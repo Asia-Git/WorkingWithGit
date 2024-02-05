@@ -97,7 +97,7 @@
     </Assign>
     <Assign DisplayName="Assign Wallie birthday" sap:VirtualizedContainerService.HintSize="510,82" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[BirthDate("Wallie")]</OutArgument>
+        <OutArgument x:TypeArguments="x:String">[BirthDate("Wallie Junior")]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">01/05/1997</InArgument>
